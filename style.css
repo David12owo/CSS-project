@@ -1,1 +1,173 @@
-ECHO is on.
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*global presets*/
+
+* {
+  margin: o;
+  padding: o;
+  box-sizing: border-box;
+}
+
+/*global styles*/
+img,
+iframe,
+video {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+p,
+span,
+i,
+s li {
+  font-family: "Roboto", sans-serif;
+}
+
+/*navbar styles*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  background-color: black;
+}
+
+.navbar-logo {
+  font-size: 400;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+@media screen and (min-width: 700px) {
+  .nav-links {
+    display: flex;
+  }
+}
+.nav-links a {
+  color: white;
+}
+
+.nav--bar {
+  background-image: url(https://th.bing.com/th/id/OIP.lhLdOUlOhJgzybsQ-tg3sQHaDI?w=283&h=147&c=7&r=0&o=5&pid=1.7);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  margin: 2rem;
+}
+
+.harmburger {
+  padding: 1rem;
+  font-size: 50px;
+}
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-image: url(https://th.bing.com/th?id=OIP.-5Qc0gOZ_IwlofGll6civQHaEu&w=312&h=199&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+  height: 70vh;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.headline {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 700px;
+  color: aliceblue;
+}
+
+.min-headline {
+  color: aliceblue;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 700px) {
+  .headline {
+    font-size: 5rem;
+  }
+}
+
+.boxs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.box1 {
+  background-color: orangered;
+  padding-right: 20rem;
+  padding-left: 20rem;
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.box2 {
+  background-color: orangered;
+  padding-right: 20rem;
+  padding-left: 20rem;
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.box3 {
+  background-color: orangered;
+  padding-right: 20rem;
+  padding-left: 20rem;
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 500px;
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+input {
+  width: 300px;
+  height: 4vh;
+}
+.f0rm-heading {
+  margin-bottom: 200px;
+}
+
+button {
+  color: white;
+  background-color: black;
+  margin-right: 240px;
+}
